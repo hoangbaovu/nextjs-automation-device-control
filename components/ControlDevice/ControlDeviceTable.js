@@ -76,7 +76,7 @@ export function ControlDeviceTable() {
             <Button onClick={(e) => { onDelete(record.key, e); }} shape="circle" icon={<PlayCircleTwoTone twoToneColor="#1890ff" />} />
           </Tooltip>
           <Tooltip title="Dừng">
-            <Button onClick={(e) => { onDelete(record.key, e); }} shape="circle" icon={<StopTwoTone twoToneColor="#eb2f96" />} />
+            <Button onClick={(e) => { onDelete(record.key, e); }} shape="circle" icon={<StopTwoTone twoToneColor="#ff0000" />} />
           </Tooltip>
           <Tooltip title="Sửa">
             <Button onClick={(e) => { onDelete(record.key, e); }} shape="circle" icon={<EditTwoTone twoToneColor="#f1c40f" />} />
